@@ -146,5 +146,5 @@ DEPENDENCIES
   rails (= 3.2.1)
   rspec-rails (= 2.8.1)
   sass-rails (= 3.2.3)
-  sqlite3
+  sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)
