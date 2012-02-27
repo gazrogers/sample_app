@@ -1,0 +1,7 @@
+<% provide :title, @user.name %>
+<!-- Where on earth did Michael Hartl learn to write HTML? Tables for layout?? This isn't 1998 you know... -->
+<h1 class="username"><%= gravatar_for @user %><%= @user.name %></h1>
+<ul class="sidebar round">
+	<li><strong>Name</strong> <%= @user.name %></li>
+	<li><strong>URL</strong> <%= link_to user_path(@user), @user %></li>
+</ul>
