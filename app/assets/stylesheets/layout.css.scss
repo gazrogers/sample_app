@@ -21,7 +21,7 @@ footer nav {float:none;}
 
 .round {-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;}
 
-h1.username {width:65%;display:inline-block;padding:1em;box-sizing:border-box;}
+h1.username, h1.micropost {width:69.5%;display:inline-block;padding:1em;box-sizing:border-box;}
 .sidebar {display:inline-block;width:30%;margin:0;padding:1em;background:#ffc;list-style-type:none;box-sizing:border-box;}
 .gravatar {border:1px solid #999;margin-bottom:-15px;}
 
@@ -51,3 +51,12 @@ a.signup_button
 
 .users {margin-top:1em;}
 .users li {list-style:none;}
+
+.microposts {width:65%;list-style-type:none;margin:0;padding:0;}
+.microposts li {border-top: 1px solid #ccc;padding-top:10px;}
+.microposts li p:last-child {font-size:85%;color:#666;}
+
+.user_info {text-decoration:none;}
+.user_info img {float:left;margin:0 0.1em 0 0;}
+.user_info p {margin:0;}
+.user_info p:last-child {font-size:80%;}
