@@ -53,7 +53,9 @@ a.signup_button
 .users li {list-style:none;}
 
 .microposts {width:65%;list-style-type:none;margin:0;padding:0;}
-.microposts li {border-top: 1px solid #ccc;padding-top:10px;}
+.microposts li {border-top: 1px solid #ccc;padding:10px 0;overflow:hidden;}
+.microposts li > a {float:left;}
+.microposts li p {margin: 0 0 0 60px;}
 .microposts li p:last-child {font-size:85%;color:#666;}
 
 .user_info {text-decoration:none;}

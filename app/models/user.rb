@@ -20,6 +20,10 @@ class User < ActiveRecord::Base
 	validates :email, presence: true, format:{with:valid_email_regex}, uniqueness:{case_sensitive:false}
 	validates :password, length:{minimum:6}
 
+	def feed
+		Micropost.where("user_id=?",id)
+	end
+
 	private
 
 		def create_remember_token
